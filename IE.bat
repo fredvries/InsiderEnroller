@@ -68,7 +68,7 @@ echo 2 - Beta Channel
 echo 3 - Release Preview Channel
 echo.
 echo 4 - Stop receiving Windows Insider builds
-echo 5 - Quit without making any changes
+echo 5 - Exit without making any changes
 echo.
 set /p "choice=Choice: "
 echo.
