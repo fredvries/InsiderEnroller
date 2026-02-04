@@ -8,6 +8,9 @@ Because the Dev Channel and the Canary Channel are in effect beta and alpha vers
 
 It would thus be wise if you did not use Windows Insider on your everyday computer, but instead use a virtual machine, such as VMware Player.
 
+Recommendation:
+Always create a system restore point before running this script.
+
 Instructions:
 - Download the batchfile to your Desktop
 - Run as an Administrator (Right-click > 'Run as admin')
