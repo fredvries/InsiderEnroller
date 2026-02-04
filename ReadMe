@@ -1,7 +1,6 @@
 InsiderEnroller
 
-The Windows Insider Program is free, but designed for advanced users who are willing to test upcoming features of Windows. Hidden inside your Windows are undocumented registry behaviour (especially the TestFlags value and bypassing online service checks) 
-that can be set to allow you to join the Windows Insider Program, but without the need to sign in to your Microsoft account. Similar scripts exist but this script has more robust Windows 11 and 24H2+ compatibility, because some keys or behaviours changed slightly over time.
+The Windows Insider Program is free, but designed for advanced users who are willing to test upcoming features of Windows. Hidden inside your Windows are undocumented registry behaviour (especially the TestFlags value and bypassing online service checks) that can be set to allow you to join the Windows Insider Program, but without the need to sign in to your Microsoft account. Similar scripts exist but this script has more robust Windows 11 and 24H2+ compatibility, because some keys or behaviours changed slightly over time.
 
 I suspect that Microsoft may decide to close this loophole somewhere in the future, but it at the moment of conception this script still works flawlessly. 
 
