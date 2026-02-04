@@ -4,7 +4,7 @@ The Windows Insider Program is free, but designed for advanced users who are wil
 
 I suspect that Microsoft may decide to close this loophole somewhere in the future, but it at the moment of conception this script still works flawlessly. 
 
-Because Dev Channel and Canary Channel are in effect beta and alpha versions of upcoming Windows versions, they inherently contain problems, can be unstable, and may be released with limited documentation. 
+Because the Dev Channel and the Canary Channel are in effect beta and alpha versions of upcoming Windows versions, they inherently contain problems, can be unstable, and may be released with limited documentation. 
 
 It would thus be wise if you did not use Windows Insider on your everyday computer, but instead use a virtual machine, such as VMware Player.
 
