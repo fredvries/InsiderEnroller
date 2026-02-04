@@ -1,19 +1,28 @@
 InsiderEnroller
 
-The Windows Insider Program is free, but designed for advanced users who are willing to test upcoming features of Windows. Hidden inside your Windows are undocumented registry values that can be set to allow you to join the Windows Insider Program, but without the need to sign in to your Microsoft account.
+The Windows Insider Program is free, but designed for advanced users who are willing to test upcoming features of Windows. Hidden inside your Windows are undocumented registry behaviour (especially the TestFlags value and bypassing online service checks) 
+that can be set to allow you to join the Windows Insider Program, but without the need to sign in to your Microsoft account. Similar scripts exist but this script has more robust Windows 11 and 24H2+ compatibility, because some keys or behaviours changed slightly over time.
 
 I suspect that Microsoft may decide to close this loophole somewhere in the future, but it at the moment of conception this script still works flawlessly. 
 
-Because the Dev Channel and the Canary Channel are in effect beta and alpha versions of upcoming Windows versions, they inherently contain problems, can be unstable, and may be released with limited documentation. 
+Because the Dev Channel and the Canary Channel are in effect beta and alpha versions of upcoming Windows versions, they inherently contain problems, can be unstable, and may be released with limited documentation.
 
 It would thus be wise if you did not use Windows Insider on your everyday computer, but instead use a virtual machine, such as VMware Player.
 
-Recommendation:
-Always create a system restore point before running this script.
+Supported channels (as shown in this script):
+0 → Canary Channel (most unstable/bleeding-edge)
+1 → Dev Channel
+2 → Beta Channel
+3 → Release Preview Channel (closest to stable)
+4 → Stop receiving Insider builds (reverts changes)
+5 → Exit
 
 Instructions:
 - Download the batchfile to your Desktop
 - Run as an Administrator (Right-click > 'Run as admin')
+
+Recommendation:
+Always create a system restore point before running this script.
 
 Changelog:
 - [04feb26] version 1.0: Initial release
